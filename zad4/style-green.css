@@ -4,27 +4,84 @@ body {
     background: #f1f8f4;
 }
 
+/* HEADER */
 header {
-    background: #2e8b57;
+    background: linear-gradient(135deg, #2e8b57, #3cb371);
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 25px;
 }
 
+/* КНОПКИ */
+button {
+    margin: 8px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    background: white;
+    color: #2e8b57;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #e0f2e9;
+}
+
+/* MAIN */
 main {
     max-width: 900px;
     margin: 30px auto;
     background: white;
-    padding: 25px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* SECTIONS */
+section {
+    margin-bottom: 30px;
 }
 
 h2 {
     border-bottom: 3px solid #2e8b57;
+    padding-bottom: 5px;
     color: #2e8b57;
 }
 
-button {
-    margin: 5px;
-    padding: 10px;
-    cursor: pointer;
+/* PHOTO */
+img {
+    width: 150px;
+    border-radius: 12px;
+    margin-top: 10px;
+    border: 3px solid white;
+}
+
+/* ARTICLE */
+article {
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-left: 5px solid #2e8b57;
+    border-radius: 8px;
+    background: #fafafa;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+    background: #e8f5e9;
+}
+
+/* LINKS */
+a {
+    color: #2e8b57;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
