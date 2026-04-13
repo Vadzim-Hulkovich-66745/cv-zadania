@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vadzim Hulkovich 66745 - CV</title>
+
+    <!-- ID обязательно для JS -->
+    <link id="theme" rel="stylesheet" href="style-green.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Vadzim Hulkovich 66745</h1>
+    <p>QA Engineer</p>
+    <img src="photo.jpg" alt="Photo of Vadzim Hulkovich">
+
+    <!-- КНОПКИ -->
+    <button id="themeBtn">Change Theme</button>
+    <button id="toggleSkillsBtn">Hide/Show Skills</button>
+</header>
+
+<section>
+    <h2>Kontakt Form</h2>
+
+    <form id="contactForm" novalidate>
+
+        <label>Imię:</label><br>
+        <input type="text" id="firstName">
+        <div class="error" id="firstNameError"></div><br>
+
+        <label>Nazwisko:</label><br>
+        <input type="text" id="lastName">
+        <div class="error" id="lastNameError"></div><br>
+
+        <label>Email:</label><br>
+        <input type="email" id="email">
+        <div class="error" id="emailError"></div><br>
+
+        <label>Wiadomość:</label><br>
+        <textarea id="message"></textarea>
+        <div class="error" id="messageError"></div><br>
+
+        <button type="submit">Wyślij</button>
+
+    </form>
+</section>
+
+<main>
+
+<section>
+    <h2>Kontakt</h2>
+    <p>Email: <a href="mailto:vadimgulkovich2000@gmail.com">vadimgulkovich2000@gmail.com</a></p>
+    <p>Phone: <a href="tel:+48501163634">+48 501 163 634</a></p>
+    <p>City: Warsaw, Poland</p>
+</section>
+
+<section>
+    <h2>O mnie</h2>
+    <p>
+        I am a motivated QA Engineer who works well both independently and in a team.
+        I take responsibility for my tasks and strive to deliver high-quality results.
+    </p>
+</section>
+
+<!-- ВАЖНО: добавляем ID -->
+<section id="skills">
+    <h2>Umiejętności</h2>
+    <ul>
+        <li>Manual Testing</li>
+        <li>API Testing</li>
+        <li>Postman</li>
+        <li>Jira</li>
+        <li>Kibana</li>
+        <li>HTML & CSS</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Doświadczenie</h2>
+    <article>
+        <h3>Noda</h3>
+        <p>Manual QA Engineer</p>
+    </article>
+</section>
+
+</main>
+
+<footer>
+    Vadzim Hulkovich 66745
+</footer>
+
+<!-- JS -->
+<script src="script.js"></script>
+
+</body>
+</html>
