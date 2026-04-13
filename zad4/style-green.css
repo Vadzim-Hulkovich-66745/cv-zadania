@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    font-family: Verdana, sans-serif;
+    background: #f1f8f4;
+}
+
+header {
+    background: #2e8b57;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    background: white;
+    padding: 25px;
+}
+
+h2 {
+    border-bottom: 3px solid #2e8b57;
+    color: #2e8b57;
+}
+
+button {
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
