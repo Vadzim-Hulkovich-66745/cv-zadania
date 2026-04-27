@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vadzim Hulkovich 66745 - CV</title>
+
+    <link id="theme" rel="stylesheet" href="style-green.css">
+</head>
+
+<body>
+
+<header>
+    <h1 id="name">Vadzim Hulkovich 66745</h1>
+    <p id="position">QA Engineer</p>
+    <img src="photo.jpg" alt="Photo">
+
+    <button id="themeBtn">Change Theme</button>
+    <button id="toggleSkillsBtn">Hide/Show Skills</button>
+</header>
+
+<section>
+    <h2>Kontakt Form</h2>
+
+    <form id="contactForm" novalidate>
+
+        <label>Imię:</label><br>
+        <input type="text" id="firstName">
+        <div class="error" id="firstNameError"></div><br>
+
+        <label>Nazwisko:</label><br>
+        <input type="text" id="lastName">
+        <div class="error" id="lastNameError"></div><br>
+
+        <label>Email:</label><br>
+        <input type="email" id="email">
+        <div class="error" id="emailError"></div><br>
+
+        <label>Wiadomość:</label><br>
+        <textarea id="message"></textarea>
+        <div class="error" id="messageError"></div><br>
+
+        <button type="submit">Wyślij</button>
+
+    </form>
+</section>
+
+<main>
+
+<section>
+    <h2>Kontakt</h2>
+    <p>Email: <a id="emailLink">vadimgulkovich2000@gmail.com</a></p>
+    <p>Phone: <a id="phoneLink">+48 501 163 634</a></p>
+    <p id="city">Warsaw, Poland</p>
+</section>
+
+<section>
+    <h2>O mnie</h2>
+    <p id="about">
+        I am a QA Engineer with experience in manual and API testing.
+        I work with tools like Jira, Postman, Kibana and focus on improving product quality through detailed testing and documentation.
+        I enjoy working in agile teams and continuously improving my technical skills.
+    </p>
+</section>
+
+<!-- ДИНАМИЧЕСКИЕ -->
+<!-- SKILLS -->
+<section id="skills">
+    <h2>Umiejętności</h2>
+
+    <!-- fallback (если JS не загрузился) -->
+    <ul id="skillsList">
+        <li>Manual Testing</li>
+        <li>API Testing</li>
+        <li>Postman</li>
+        <li>Jira</li>
+        <li>Kibana</li>
+        <li>HTML & CSS</li>
+        <li>Basic JavaScript</li>
+        <li>SQL basics</li>
+    </ul>
+</section>
+
+<!-- PROJECTS -->
+<section>
+    <h2>Projekty</h2>
+
+    <div class="add-project">
+        <input type="text" id="newProjectInput" placeholder="Nowy projekt">
+        <button id="addProjectBtn">Dodaj</button>
+    </div>
+
+    <ul id="projectsList">
+        <li>Mobile App Testing (Android QA)</li>
+        <li>API Testing with Postman</li>
+        <li>IoT Healthcare Platform testing</li>
+        <li>Regression Testing for Web App</li>
+        <li>Bug reporting & test documentation</li>
+    </ul>
+</section>
+
+</main>
+
+<footer id="footer">Vadzim Hulkovich 66745</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

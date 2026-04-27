@@ -1,0 +1,24 @@
+{
+  "name": "Vadzim Hulkovich 66745",
+  "position": "QA Engineer",
+  "email": "vadimgulkovich2000@gmail.com",
+  "phone": "+48501163634",
+  "city": "Warsaw, Poland",
+  "about": "I am a motivated QA Engineer who works well both independently and in a team.",
+
+  "skills": [
+    "Manual Testing",
+    "API Testing",
+    "Postman",
+    "Jira",
+    "Kibana",
+    "HTML & CSS"
+  ],
+
+  "projects": [
+    "Mobile App Testing",
+    "API Automation",
+    "IoT Healthcare Platform",
+    "Localization Testing"
+  ]
+}
