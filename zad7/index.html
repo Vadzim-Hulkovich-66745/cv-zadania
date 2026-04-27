@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vadzim Hulkovich 66745 - CV</title>
+
+    <link id="theme" rel="stylesheet" href="style-green.css">
+</head>
+
+<body>
+
+<header>
+    <h1 id="name"></h1>
+    <p id="position"></p>
+    <img src="photo.jpg" alt="Photo">
+
+    <button id="themeBtn">Change Theme</button>
+    <button id="toggleSkillsBtn">Hide/Show Skills</button>
+</header>
+
+<section>
+    <h2>Kontakt Form</h2>
+
+    <form id="contactForm" novalidate>
+
+        <label>Imię:</label><br>
+        <input type="text" id="firstName">
+        <div class="error" id="firstNameError"></div><br>
+
+        <label>Nazwisko:</label><br>
+        <input type="text" id="lastName">
+        <div class="error" id="lastNameError"></div><br>
+
+        <label>Email:</label><br>
+        <input type="email" id="email">
+        <div class="error" id="emailError"></div><br>
+
+        <label>Wiadomość:</label><br>
+        <textarea id="message"></textarea>
+        <div class="error" id="messageError"></div><br>
+
+        <button type="submit">Wyślij</button>
+
+    </form>
+</section>
+
+<main>
+
+<section>
+    <h2>Kontakt</h2>
+    <p>Email: <a id="emailLink"></a></p>
+    <p>Phone: <a id="phoneLink"></a></p>
+    <p id="city"></p>
+</section>
+
+<section>
+    <h2>O mnie</h2>
+    <p id="about"></p>
+</section>
+
+<!-- ДИНАМИЧЕСКИЕ -->
+<section id="skills">
+    <h2>Umiejętności</h2>
+    <ul id="skillsList"></ul>
+</section>
+
+<section>
+    <h2>Projekty</h2>
+
+    <!-- ДОБАВЛЕНИЕ -->
+    <div class="add-project">
+        <input type="text" id="newProjectInput" placeholder="Nowy projekt">
+        <button id="addProjectBtn">Dodaj</button>
+    </div>
+
+    <!-- СПИСОК -->
+    <ul id="projectsList"></ul>
+</section>
+
+</main>
+
+<footer id="footer"></footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

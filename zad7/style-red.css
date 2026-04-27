@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+    font-family: Verdana, sans-serif;
+    background: #fff5f5;
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(135deg, #c62828, #e53935);
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+/* КНОПКИ */
+button {
+    margin: 8px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    background: white;
+    color: #c62828;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #ffe5e5;
+}
+
+/* MAIN */
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* SECTIONS */
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    border-bottom: 3px solid #c62828;
+    padding-bottom: 5px;
+    color: #c62828;
+}
+
+/* PHOTO */
+img {
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 10px;
+    border: 4px solid #c62828;
+}
+
+/* ARTICLE */
+article {
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 1px solid #f0bdbd;
+    border-left: 6px solid #c62828;
+    border-radius: 8px;
+    background: #fffafa;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+    background: #ffebee;
+}
+
+/* LINKS */
+a {
+    color: #c62828;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* FORM */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    margin-top: 3px;
+}
+
+/* ===== FORM CONTAINER ===== */
+form {
+    max-width: 500px;          /* ограничиваем ширину */
+    margin: 0 auto;            /* центрируем */
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+/* LABEL */
+form label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* INPUTS */
+input, textarea {
+    width: 100%;               /* ровно внутри формы */
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    box-sizing: border-box;    /* чтобы не вылезали */
+}
+
+/* TEXTAREA */
+textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+/* BUTTON */
+form button {
+    margin-top: 15px;
+    align-self: center;        /* кнопка по центру */
+    width: 50%;
+}
+
+/* ERRORS */
+.error {
+    color: red;
+    font-size: 12px;
+    margin-top: 3px;
+}
+
+/* SECTION TITLE ALIGN */
+section h2 {
+    text-align: center;
+}
+
+/* ADD PROJECT */
+.add-project {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.add-project input {
+    flex: 1;
+}
+
+#projectsList li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
